@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Super</title>
+</head>
+<body>
+<script>
+    let userName = prompt("Кто там?");
+    if (userName == "Admin") {
+        let pass = prompt("Введите пароль");
+        if (pass == "Я главный") {
+            alert("Здравствуйте");
+        } else if (pass == "" || pass == null) {
+            alert("Неверный пароль");
+        } else {
+            alert("Отмена");
+        }
+    } else if (userName == "" || userName == null) {
+        alert("Отменено");
+    } else {
+        alert("Я вас не знаю");
+    }
+</script>
+</body>
+</html>
