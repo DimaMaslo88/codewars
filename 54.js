@@ -9,3 +9,4 @@ function arrayPlusArray(arr1, arr2) {
     }
     return sum1 + sum2; //something went wrong
 }
+console.log(arrayPlusArray())
